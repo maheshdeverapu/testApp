@@ -1,0 +1,8 @@
+password = X66C5DQbe39hebgy
+mongodbURI = mongodb+srv://testApp:X66C5DQbe39hebgy@cluster0.cc1b1sk.mongodb.net/?retryWrites=true&w=majority
+
+
+ "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },

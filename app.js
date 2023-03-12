@@ -6,10 +6,10 @@ if(process.env.NODE_ENV !== "production"){
     require("dotenv").config({path:"config.env"})
 }
 const db = process.env.MONGODBURI;
-console.log(db)
+// console.log(db)
 const connectDatabase = async()=>{
     try{
-        console.log(db)
+        // console.log(db)
         await mongoose.connect(db);
         console.log("connected to database")
     }
